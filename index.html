@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>234Spaces</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+</head>
+<body>
+    <style>
+        *,  
+*::before {
+  /* margin: 0; */
+  padding: 0;
+  box-sizing: inherit; 
+}
+
+html {
+  box-sizing: border-box;
+  /* font-size: 62.5%;  */
+}
+/* $bp-largest: 75em; //1200px
+$bp-large: 62.5em;  //900px
+$bp-medium: 50em;  //800px
+$bp-small: 37.5em; //600px
+$bp-smallest: 31.25em; //500px/16
+$bp-mobile: 25em; //400px/16 */
+@media only screen and (max-width: 37.5em) {
+    html {
+      font-size: 62.5%; 
+    } 
+}
+@media only screen and (max-width: 25em) {
+    html {
+      font-size: 50%; 
+    } 
+}
+
+
+body {
+  font-family: "Nunito", sans-serif;
+  color: #6D5D4B;
+  font-weight: 300;
+  outline: none;
+  line-height: 1.6; 
+  max-width: 100%;
+  
+  
+}
+.content {
+    height: 100vh;
+}
+
+.header {
+    padding: 2rem;
+    background-color: #2B2C2E;
+}
+@media only screen and (max-width: 31.25em) {
+    .header {
+      padding: 1rem !important;
+      
+    } 
+    .header-link {
+        padding: 0 1rem 0 1rem !important;
+        
+    }
+    .booking {
+        text-align: center !important;
+    }
+}
+
+.header-link, .header-link:hover {
+    color: #EAEAEA;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.booking {
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.sub-head {
+    padding: 1.5rem 0 1.5rem 0;
+    border-top: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 1.5rem;
+}
+
+.btn-2 {
+    padding: .375rem .75rem !important;
+}
+
+.footer {
+    line-height: .5;  
+    margin-bottom: 1.5rem;
+    font-size: .8rem;
+}
+@media only screen and (max-width: 25em) { 
+    .footer {
+       font-size: 1rem;    
+    }
+    .footer-icon {
+        height: 2rem !important;
+        width: 2rem !important;
+        padding: 2.22px !important;
+        font-size: 1.3rem !important;
+    }
+}
+
+.footer-icon {
+    height: 2.5rem;
+    width: 2.5rem;
+    padding: 6px;
+    font-size: 1.465rem;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #2B2C2E;
+    color: #EBEBEB;
+}       
+    </style>
+
+
+    <div class="content">
+        <div class="header">
+            <a href="#" class="px-5 header-link">234Spaces<span class="px-4">|</span><span class="booking">Your most affordable space booking!</span></a>
+        </div>
+        <div class="px-3">
+            <h3 class="pt-5 pb-5">New jobs available based on your saved job alert search criteria:</h3>
+            <div class="sub-head">
+                <div class="d-flex justify-content-between align-item-center">
+                    <div class="lead">
+                        <a href="">Space Manager, Nigeria</a>
+                        <p>Lagos, Nigeria</p>
+                    </div>
+                    <div>
+                        <button class="btn btn-primary btn-lg">Apply now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="jumbotron p-3">
+            <div class="d-flex justify-content-end mb-4 mt-5">
+                <a href=""><i class="fa fa-facebook mx-2 footer-icon"></i></a>
+                <a href=""><i class="fa fa-twitter mx-2 footer-icon"></i></a>
+                <a href=""><i class="fa fa-linkedin mx-2 footer-icon"></i></a>
+                <a href=""><i class="fa fa-linkedin mx-2 footer-icon"></i></a>
+                <a href=""><i class="fa fa-google-plus mx-2 footer-icon"></i></a>
+                <a href=""><i class="fa fa-twitter mx-2 footer-icon"></i></a>
+            </div>
+            <div class="footer">
+                    <p>234Spaces Inc., 2019. All rights reserved.</p>
+                    <p>229 West 43rd Street 5th Floor New York, NY 10036</p>
+            </div>
+            <p class="footer">To unsubscribe from this 234Sapces available space alert <a href="#">click here.</a></p>
+        </div>
+    </div>
+</body>
+</html>
